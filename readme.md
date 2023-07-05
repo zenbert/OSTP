@@ -1,8 +1,4 @@
-<p align="center"><img src="https://www.ulearnpro.com/img/logo_md.png"><a href="https://packagist.org/packages/ulearnpro/ulearn"><img src="https://poser.pugx.org/ulearnpro/ulearn/license.svg" alt="License"></a></p>
-<p align="center">
-  <a href="https://ko-fi.com/G2G311PPB"><img src="https://www.ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi"></a>
-</p>
-
+## Online Student Tutoring Platform OSTP
 * [About OSTP](#about-ostp)
 * [Key Features](#about-ostp)
 * [Demo & Credentials](#about-ostp)
@@ -14,11 +10,6 @@
 ## About OSTP
 
 <a href="https://www.ulearnpro.com">OSTP</a> is an impressive LMS script which comprises of all the basic features that needed for online learning. This package includes responsive frontend website, instructor/admin dashboard with a backend template. Admin can manage every aspect of the system, while the instructors could create creative courses through an interactive curriculum with various types of course files such as audio, video, document and text.
-
-```diff
-+ Requests: 
-+ 1. Kindy give us a star in github, if you like/clone our project.
-```
 
 ## Key Features
 1. Laravel 5.8                        
@@ -39,26 +30,26 @@
 16. Website Security
 
 ## Demo & Credentials
-Demo Link : https://www.ulearnpro.com/demo/
+Demo Link : https://www.ostp.free.nf/
 
 |    Role       |        Email ID        |   Password    |
 | ------------- | ---------------------  | ------------- |
-|    Admin      | admin@ulearn.com       |    secret     |
-|    Instructor | instructor@ulearn.com  |    secret     |
-|    Student    | student@ulearn.com     |    secret     |
+|    Admin      | admin@ostp.com       |    secret     |
+|    Instructor | instructor@ostp.com  |    secret     |
+|    Student    | student@ostp.com     |    secret     |
 
 ## Access ReactJS Page
 
 Login at the following link using the student credentials, username:student@ulearn.com | password:secret
 
 ```sh
-https://www.ulearnpro.com/demo/login
+https://www.ostp.free.nf.com/login
 ```
 
 Navigate to the following link, to access the course learn page directly
 
 ```sh
-https://www.ulearnpro.com/demo/course-enroll/photography-become-a-better-photographer/dlhZZTZ6bmZWTGdRd3YzVWp2ZldMQT09
+https://www.ostp.free.nf/course-enroll/photography-become-a-better-photographer/dlhZZTZ6bmZWTGdRd3YzVWp2ZldMQT09
 ```
 
 ## Installation
@@ -90,7 +81,7 @@ php artisan db:seed
 ```
 
 ## Support
-For contribution and customisation supports, kindly contact us through the Email ID albertmwangwa@gmail.com
+For contribution and customisation supports, kindly contact us through the Email ID bertderick@ostp.com
 
 ## License
 OSTP is open-source software licensed under the [MIT License](LICENSE).
