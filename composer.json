@@ -1,0 +1,75 @@
+{
+    "name": "ostppro/ostp",
+    "description": "LMS script built on Laravel 5.8 and React JS 16.4",
+    "keywords": ["lms", "learning-management-system", "laravel", "reactjs"],
+    "homepage": "https://www.ostp.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Albert Mwangwa",
+            "email": "albertwangwa@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "7.4.4|^8.1",
+        "chumper/zipper": "1.0.x",
+        "fideloper/proxy": "^4.0",
+        "ignited/laravel-omnipay": "3.0.2",
+        "intervention/image": "2.4.2",
+        "laravel/framework": "*",
+        "laravel/socialite": "^4.1.0",
+        "laravel/tinker": "^1.0",
+        "omnipay/paypal": "3.0.2"
+    },
+    "require-dev": {
+        "beyondcode/laravel-dump-server": "^1.0",
+        "filp/whoops": "^2.0",
+        "fzaninotto/faker": "^1.4",
+        "mockery/mockery": "^1.0",
+        "nunomaduro/collision": "^2.0",
+        "nunomaduro/larastan": "^0.3.16",
+        "phpunit/phpunit": "^7.5"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "autoload": {
+        "files": ["app/Http/SiteHelpers.php"],
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi"
+        ]
+    }
+}
