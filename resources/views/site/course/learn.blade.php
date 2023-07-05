@@ -100,7 +100,7 @@
                           <div class="container">
                             
                           @foreach($curriculum_lectures as $curriculum_lecture)
-                          	@php
+                          	@php 
                           		switch ($curriculum_lecture->media_type) {
 								    case 0:
 								        $icon_class = 'fas fa-video';
