@@ -3,17 +3,17 @@
   <a href="https://ko-fi.com/G2G311PPB"><img src="https://www.ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi"></a>
 </p>
 
-* [About ULEARN](#about-ulearn)
-* [Key Features](#about-ulearn)
-* [Demo & Credentials](#about-ulearn)
+* [About OSTP](#about-ostp)
+* [Key Features](#about-ostp)
+* [Demo & Credentials](#about-ostp)
 * [Access ReactJS Page](#access-reactjs-page)
-* [Installation](#about-ulearn)
-* [Support](#about-ulearn)
-* [License](#about-ulearn)
+* [Installation](#installation-ostp)
+* [Support](#support-ostp)
+* [License](#license-ostp)
 
-## About ULEARN
+## About OSTP
 
-<a href="https://www.ulearnpro.com">ULEARN</a> is an impressive LMS script which comprises of all the basic features that needed for online learning. This package includes responsive frontend website, instructor/admin dashboard with a backend template. Admin can manage every aspect of the system, while the instructors could create creative courses through an interactive curriculum with various types of course files such as audio, video, document and text.
+<a href="https://www.ulearnpro.com">OSTP</a> is an impressive LMS script which comprises of all the basic features that needed for online learning. This package includes responsive frontend website, instructor/admin dashboard with a backend template. Admin can manage every aspect of the system, while the instructors could create creative courses through an interactive curriculum with various types of course files such as audio, video, document and text.
 
 ```diff
 + Requests: 
@@ -90,7 +90,7 @@ php artisan db:seed
 ```
 
 ## Support
-For contribution and customisation supports, kindly contact us through the Email ID ulearnpro@gmail.com
+For contribution and customisation supports, kindly contact us through the Email ID albertmwangwa@gmail.com
 
 ## License
-ULEARN is open-source software licensed under the [MIT License](LICENSE).
+OSTP is open-source software licensed under the [MIT License](LICENSE).
